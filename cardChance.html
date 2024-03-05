@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>CARD CHANCE</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Welcome To my website">
+  <link rel="stylesheet"href="cardChance.css">
+  <style></style>
+  </head>
+ <body>
+	<section class="container"> 
+		   <img src="icons/return.png" title="return" id="return">
+	       <input type="text" id="input" autocomplete="off" placeholder="1>>10">
+	       <button id="go">Goo!!</button>
+	       <button id="replay">Restart</button>
+	       <div id="divErreur">Enter The Number First !</div>
+	       <div class="parent" id="boss">
+	      	 <div class="front">FRONT</div>
+	      	 <div id="Nluck" class="back">7</div>
+	       </div>
+	       <section id="win" class="C_win"></section>
+	       <section id="loss" class="C_loss"></section>
+	</section>
+	 <section class="begin">
+		 <button id="StartGame">Start Game</button>
+		 <button id="Help">Help</button>
+		 <button id="Quit">Quit</button>
+		<div id="divHelp">
+			<img src="icons/annulerHelp.png">
+			<h1>Help</h1>
+			<h2>Welcome To card Chance and Thank you For Your visited</h2>
+			<img src="icons/guideHelp.png" title="guide">
+		 </div>
+	 </section>
+	 <section class="lancer_game" id="departGame">
+		 <img src="icons/gameon.gif">
+		 <h1>LOADING...</h1>
+		 <label id="lab1">100%</label>
+		 <div id="loading"></div>
+		 
+	 </section>
+	   <script src="jquery-3.5.1.min.js"></script>
+	   <script src="cardChance.js"></script>
+ </body>
+</html>
